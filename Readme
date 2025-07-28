@@ -1,0 +1,20 @@
+# 🔐 Secret Finder — Hashira Assignment
+
+This project solves the "Secret Finder" problem by decoding input from JSON files, interpreting number bases, and applying Lagrange Polynomial Interpolation to uncover a hidden constant `c`.
+
+---
+
+## 📁 Input Format
+
+Each input file is a `.json` file with the following format:
+
+```json
+{
+  "keys": {
+    "n": 4,
+    "k": ["a", "b", "c", "d"]
+  },
+  "0": { "base": 10, "value": "100" },
+  "1": { "base": 2, "value": "1100100" },
+  ...
+}
